@@ -1,0 +1,19 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+h1{
+	/*this specifies the background color*/
+	background-color: #AE9CF5FF;
+	/*this changes the text alignment to center*/
+	text-align: center;
+	/*this will set border to dashed, which looks look and it's color properties can be changed with color*/
+	border-style: dashed;
+}
+/*once the page is below the threshold of 800 px,the text-alignment will be right*/
+@media (max-width: 800px){
+	h1{
+		text-align: right;
+		/*and the color will be set tyo white*/
+		color: white;
+	}
+}
